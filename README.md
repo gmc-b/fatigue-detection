@@ -80,10 +80,11 @@ Due to the low amplitude on the EMG signal noise becomes highly relevant, theref
 
 
 ## Part 4: Calculating fatigue metrics
-Fatigue metrics are displayed in the graph below.
-      <p float="center">
-      <img src="img/fatigue_data.png" width=70% /> 
-      </p>
+The graph below illustrates fatigue measures over time. A slight increase in both RMS and MAV can be observed, indicating the onset of muscle fatigue. In contrast, the ROM curve shows a noticeable decline after a few repetitions, suggesting a reduction in produced force due to fatigue. However, the mean change curve does not exhibit a clear fatigue trend.
+    <p float="center">
+    <img src="img/fatigue_data.png" width=70% /> 
+    </p>
+
 - Questions:
   - **How do RMS or MAV help assess fatigue in the muscle?**
   These parameters provide insights into muscle activation levels. As a muscle fatigues, its electrical activity typically increases when measured by surface electrodes.
